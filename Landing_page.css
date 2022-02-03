@@ -72,6 +72,24 @@ h1 {
     border-radius: 10px;
 }
 
+
+.credit{
+    display: flex;
+    justify-content: end;
+    color:white;
+    font-size: small;
+}
+
+
+a{
+    color:white;
+}
+
+a:visited{
+    color:rgb(3,111,142);
+}
+
+
 .footer-text{
     display: flex;
     height: var(--footer-height);
