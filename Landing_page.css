@@ -27,7 +27,7 @@ main{
 
 .image-container:before {
     content: "";
-    background-image: url("/images/screen.jpg");
+    background-image: url("./images/screen.jpg");
     position: absolute;
     background-size: cover;
     top: 0;

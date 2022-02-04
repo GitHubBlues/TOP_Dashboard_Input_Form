@@ -8,6 +8,62 @@
     <link rel="stylesheet" href="Input_form.css">
 </head>
 <body>
-    
+    <div class="image-container">
+        <div class="odin-banner">
+            <img src="./images/odin-logo.png" alt="odin logo">
+            <div class="banner-text">ODIN</div>
+        </div>
+        <div class="photo-credit">Photo by Halie West on Unsplash</div>
+    </div>
+
+    <div class="form-container">
+        <div class="text-1">This is not a real online service! You know you need something like this is your life
+            to help you realize your deepest dreams. 
+            <br/>  Sign up <em>now</em> to get started</div>
+        <div class="text-2">You <em>know</em> you want to</div>
+        
+        <div class="form">
+            <form action="no.action.for.now" method="post">
+                <div class="form-title">Let's do this!</div>
+                    <div class="column">
+                        <div>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id=email>
+                        </div>
+                        
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" class="error">
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="text" name="phone" id="phone">
+                        </div>
+                        
+                        <div>
+                            <label for="cf-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="cf-password" id="cf-password" class="error">
+                        </div>
+                    </div>
+
+            </form>
+        </div>
+
+        <button class="btn">Create Account</button>
+        <div class="text-3">Already have an account? &nbsp<b> Log in</b></div>
+    </div>
 </body>
 </html>
