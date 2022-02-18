@@ -27,7 +27,7 @@ main{
 
 .image-container:before {
     content: "";
-    background-image: url("./images/screen.jpg");
+    background-image: url("../images/screen.jpg");
     position: absolute;
     background-size: cover;
     top: 0;
@@ -64,7 +64,8 @@ h1 {
 
 
 .btn-dashboard,
-.btn-input{
+.btn-input, 
+.btn-animations{
     font-size: x-large;
     font-weight: 500;
     padding: 0.6rem 0.7rem;
