@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html,body {
+    background-color: beige;    
+    height: 100%;
+    margin: 0rem;
+}
+
+
+.wrapper {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed-bg h1 {
+  display: flex;
+}
+
+.scroll-bg {
+  background-color: #0f0f0a;
+  padding: 10px 70px;
+  color: #676767;
+}
+
+/* background images */
+
+.bg-1 {
+  background-image: url("../../../images/pawel-czerwinski-1Xyv9EkIJcQ-unsplash.jpg");
+}
+
+.bg-2 {
+   background-image: url("../../../images/pawel-czerwinski-8PqU9b_cpbg-unsplash.jpg");
+}
+
+.bg-3 {
+  background-image: url("../../../images/pawel-czerwinski-OY3slACa3ec-unsplash.jpg");
+}
+
+.bg-4 {
+   background-image: url("../../../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg");
+}
+
+.bg-5 {
+    background-image: url("../../../images/pawel-czerwinski-suLgJZ1edT4-unsplash.jpg");
+}
+
+
