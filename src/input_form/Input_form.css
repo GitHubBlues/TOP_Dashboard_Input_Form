@@ -1,7 +1,7 @@
 @font-face {
   font-family: norse;
   font-size: xx-large;
-  src: url("/fonts/Norse-Bold.otf");
+  src: url("../../fonts/Norse-Bold.otf");
 }
 
 :root {
