@@ -1,112 +1,105 @@
 body {
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   max-height: 100vh;
-   background-color: #000;
-   /* border: 4px solid blue; */
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  background-color: #000;
+}
 
- .heart-container {
-   display: flex;
-   flex-direction: row;
-   /* border: 4px solid orange; */
-   max-width: 90vw;
-   margin: auto;
-   position: absolute;
-   left: 2rem; 
-   top: 2rem;
- }
- 
-  .heart-container2 {
-    display: flex;  
-    /* border: 4px solid pink; */
-    margin: 1rem;
-    max-width: min(80vw, 80vh); 
+.heart-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 90vw;
+  margin: auto;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
 
-  }
+.heart-container2 {
+  display: flex;
+  margin: 1rem;
+  max-width: min(80vw, 80vh);
+}
 
- .heart{
-     display: flex;
- }
+.heart {
+  display: flex;
+}
 
 .love {
-   fill: none;
-   stroke-miterlimit: 10;
-   stroke-width: 5px;
-   stroke-linecap: round;
-   stroke-dasharray: 1150;
- }
-
-
-.love1{
-   animation: lines 4s infinite 200ms; 
-   stroke: var(--color);
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-dasharray: 1150;
 }
 
-.love2{
-   animation: lines 3s infinite 800ms; 
-   stroke: var(--color);
+.love1 {
+  animation: lines 4s infinite 200ms;
+  stroke: var(--color);
 }
 
-.love3{
-   animation: lines 4s infinite 1100ms; 
-   stroke: var(--color);
+.love2 {
+  animation: lines 3s infinite 800ms;
+  stroke: var(--color);
 }
 
-.love4{
-   animation: lines 4.2s infinite 2200ms; 
-   stroke: var(--color);
+.love3 {
+  animation: lines 4s infinite 1100ms;
+  stroke: var(--color);
+}
+
+.love4 {
+  animation: lines 4.2s infinite 2200ms;
+  stroke: var(--color);
 }
 
 @keyframes lines {
-  100% { 
+  100% {
     stroke-dashoffset: 2400;
-  } 
+  }
 }
 
-.text-container{
-    display: flex;
-    flex-direction: column;
-    font-size: xx-large;
-    color: white;
-    /* border: 4px solid yellow; */
-    margin: 1rem;
-    gap: 3rem;
-    justify-content: center;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  color: white;
+  /* border: 4px solid yellow; */
+  margin: 1rem;
+  gap: 3rem;
+  justify-content: center;
 }
 
+.word-1,
+.word-2,
+.word-3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
 
-.word-1{
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-    font-weight: bold;
-    color: rgb(88, 40, 215);
-    rotate: 2deg;
+.word-1 {
+  color: rgb(88, 40, 215);
+  rotate: 2deg;
 }
 
 .word-2 {
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-    font-weight: bold;
-    color: rgb(246, 9, 149);
-    rotate: -1deg;
+  color: rgb(246, 9, 149);
+  rotate: -1deg;
 }
 
 .word-3 {
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-    font-weight: bold;
-    color: rgb(254, 219, 59);
+  color: rgb(254, 219, 59);
 }
 
 .word-1.pulsing,
 .word-2.pulsing,
 .word-3.pulsing {
-    animation: 1s change-size infinite alternate;;
+  animation: 1s change-size infinite alternate;
 }
 
 @keyframes change-size {

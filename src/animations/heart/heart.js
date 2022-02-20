@@ -2,10 +2,9 @@ const word1 = document.querySelector(".word-1");
 const word2 = document.querySelector(".word-2");
 const word3 = document.querySelector(".word-3");
 
-
 function lettersOneByOne(element, message, delay) {
-    let i = 0;
-    var interval = setInterval(function () {
+  let i = 0;
+  var interval = setInterval(function () {
     element.innerHTML += message.charAt(i);
     i++;
     if (i > message.length) {
@@ -14,21 +13,17 @@ function lettersOneByOne(element, message, delay) {
   }, delay);
 }
 
-
 setTimeout(function () {
-    lettersOneByOne(word1, "Happy", 120);
+  lettersOneByOne(word1, "Happy", 120);
 }, 300);
 
-
 setTimeout(function () {
-    lettersOneByOne(word2, "Valentines", 140);
+  lettersOneByOne(word2, "Valentines", 140);
 }, 1000);
 
-
 setTimeout(function () {
-    lettersOneByOne(word3, "Day!", 130);
+  lettersOneByOne(word3, "Day!", 130);
 }, 2000);
-
 
 setTimeout(function () {
   word1.classList.add("pulsing");

@@ -139,7 +139,7 @@ body {
 }
 
 .container-ball .ball-5 {
-  animation: ballBouncing-5 1.2s ease-in infinite;
+  animation: ballBouncing-5 1.2s linear infinite;
   bottom: 2.1rem;
   transform-origin: bottom;
 }
@@ -154,7 +154,7 @@ body {
     transform: scaleY(1.2);
   }
   40%,
-  80% {
+  70% {
     transform: translateY(-14rem);
   }
   70% {
@@ -174,7 +174,7 @@ body {
     transform: scale(1.2, 0.8);
   }
   40%,
-  80% {
+  70% {
     transform: scale(0.5, 0.2);
   }
   70% {
@@ -195,13 +195,13 @@ body {
     transform: scaleY(1.2);
   }
   40%,
-  80% {
+  68% {
     transform: translateY(-15rem);
   }
   68% {
     transform: translateY(-16rem);
   }
-  94% {
+  96% {
     transform: translateY(0);
   }
 }
@@ -215,13 +215,13 @@ body {
     transform: scale(1.2, 0.8);
   }
   40%,
-  80% {
+  68% {
     transform: scale(0.5, 0.2);
   }
   68% {
     transform: scale(0.5, 0.15);
   }
-  94% {
+  96% {
     transform: scale(1.5, 0.6);
   }
 }
@@ -236,7 +236,7 @@ body {
     transform: scaleY(1.2);
   }
   40%,
-  90% {
+  86% {
     transform: translateY(-18rem);
   }
   86% {
@@ -256,10 +256,10 @@ body {
     transform: scale(1.2, 0.8);
   }
   40%,
-  90% {
+  86% {
     transform: scale(0.5, 0.2);
   }
-  86% {
+  87% {
     transform: scale(0.5, 0.15);
   }
   98% {
