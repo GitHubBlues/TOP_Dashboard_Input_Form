@@ -22,7 +22,7 @@ body {
 .image-container {
   display: flex;
   flex-direction: column;
-  background-image: url("/images/fern.jpg");
+  background-image: url("../../images/fern.jpg");
   background-size: cover;
   width: 250px;
   position: relative;
