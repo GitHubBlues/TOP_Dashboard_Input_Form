@@ -42,21 +42,21 @@ body {
 /* background images */
 
 .bg-1 {
-  background-image: url("../../../images/pawel-czerwinski-1Xyv9EkIJcQ-unsplash.jpg");
+  background-image: url("./../../images/pawel-czerwinski-1Xyv9EkIJcQ-unsplash.jpg");
 }
 
 .bg-2 {
-  background-image: url("../../../images/pawel-czerwinski-8PqU9b_cpbg-unsplash.jpg");
+  background-image: url("./././images/pawel-czerwinski-8PqU9b_cpbg-unsplash.jpg");
 }
 
 .bg-3 {
-  background-image: url("../../../images/pawel-czerwinski-OY3slACa3ec-unsplash.jpg");
+  background-image: url("../../images/pawel-czerwinski-OY3slACa3ec-unsplash.jpg");
 }
 
 .bg-4 {
-  background-image: url("../../../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg");
+  background-image: url(/"images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg");
 }
 
 .bg-5 {
-  background-image: url("../../../images/pawel-czerwinski-suLgJZ1edT4-unsplash.jpg");
+  background-image: url("./images/pawel-czerwinski-suLgJZ1edT4-unsplash.jpg");
 }
