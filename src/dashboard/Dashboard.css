@@ -1,3 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    --very-dark: #082e27;
+    --dark-green: #164A41;
+    --med-green: #4D774E;
+    --light-green: #a6d096;
+    --yellow: #F1B24A;
+    --white: #FFFFFF;
+    --light-gray: #ededed;
+}
+
 body{
-    background-color: thistle;
+    background-color: var(--white);
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    border: 2px solid pink;                           
+    min-height: 100vh;
+}
+
+/*********** side navegation bar***********/
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    grid-area: sidenav;
+    border: 2px solid black;
+    width: 270px;
+    background-color: var(--very-dark);
+    color: var(--light-gray);
+    padding: 1rem;
+}
+
+.sn-title {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 1rem; 
+    height: 2.5rem;
+}
+
+.sn-title-icon {
+
+}
+
+.sn-navegation-block {
+    list-style-type: none;
+    margin-top: 2.5rem;
+}
+
+.sn-nav-item {
+margin-bottom: 20px;
+}
+
+.sn-nav-link {
+    font-size: medium;
+    color:  var(----light-gray);
+    text-decoration: none;
+}
+
+.sn-icon {
+    padding: 10px;
+}
+
+/*********** main-container-right-side ***********/
+.right-side-container {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: 1.2fr 5fr;
+    grid-template-areas: "header"
+                         "projects";
+    width: 100%;
+}
+
+/*********** header ***********/
+.header {
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 1fr;    
+    grid-template-rows: 1fr 2fr;    
+    border: 2px solid black;
+}
+
+.h-container-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.h-search-container {
+
+}
+
+.h-search-icon {
+
+}
+
+.h-search-box {
+    border-radius: 10px;
+    padding: 3px;
+    background-color: var(--light-green);
+}
+
+.h-top-icons-container {
+
+}
+
+.h-alert-icon {
+
+}
+
+.h-avatar-icon-top {
+
+}
+
+label.h-avatar-icon-top {
+
+}
+
+.h-container-bottom {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid beige;
+}
+
+.h-hello-container {
+    display: flex;
+}
+
+.h-avatar-icon-bottom {
+  border: 2px solid magenta;
+  margin: auto;
+  padding: 10px;
+}
+
+.h-hello-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.h-hi {
+   font-size: large;
+   font-weight: 600;
+}
+
+.h-name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.h-button-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 12px;
+}
+
+.h-btn {
+  padding: 5px;
+  font-size: large;
+  border-radius: 8px;
+  background-color: var(--light-green);
+  margin-left: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/*********** projects***********/
+.projects {
+    display: grid;
+    grid-area: projects;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 0.75fr;
+    grid-template-rows: 3rem 1fr 1fr 3rem;
+    grid-template-areas: "title1 title1 title2"
+                         "proj proj announcement" 
+                         "proj proj trending" 
+                         "footer footer footer";
+    background-color: var(--med-green);                         
+}
+
+.t1 {
+    grid-area: title1;
+}
+
+.t2 {
+    grid-area: title2;
+}
+
+.p-title {
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: 3px;
+    font-size: large;
+    color: var(--light-gray);
+    font-weight: 600;    
+}
+
+.p-container-projects {
+    display: grid;
+    grid-area: proj;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "card1 card2"
+                         "card3 card4"
+                         "card5 card6";
+    background-color: var(--med-green);  
+}
+
+.card1 {
+    grid-area: card1; 
+    border: 0.5px dashed orange;
+}
+
+.card2 {
+    grid-area: card2; 
+    border: 0.5px dashed orange;
+}
+
+.card3 {
+     grid-area: card3; 
+     border: 0.5px dashed orange;
+}
+
+.card4 {
+     grid-area: card4; 
+     border: 0.5px dashed orange;
+}
+
+.card5 {
+     grid-area: card5; 
+     border: 0.5px dashed orange;
+}     
+
+.card6 {
+     grid-area: card6; 
+     border: 0.5px dashed orange;
+     background-color: var(--light-green);  
+}
+
+.card {
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--light-green);  
+    border-radius: 6px;
+}
+
+.p-container-announcements {
+    grid-area: announcement;
+}
+
+.p-container-trending{
+    grid-area: trending;
+}
+
+.p-announcements,
+.p-trending {
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--light-green);  
+    border-radius: 6px;
+    height: calc(100% - 20px);
+}
+
+.p-announcements {
+   height: calc(100% - 20px);
+}
+
+.p-trending {
+    height: calc(100% - 40px);
+ }
+
+.p-footer {
+    grid-area: footer;
+    border: 2px solid yellowgreen;
 }
