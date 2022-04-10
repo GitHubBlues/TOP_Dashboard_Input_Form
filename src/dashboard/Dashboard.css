@@ -17,6 +17,10 @@ body{
     min-height: 100vh;
 }
 
+ion-icon {
+    font-size: 25px;
+}
+
 .content {
     display: flex;
     border: 2px solid pink;                           
@@ -29,21 +33,23 @@ body{
     flex-direction: column;
     grid-area: sidenav;
     border: 2px solid black;
-    width: 270px;
+    width: 350px;
     background-color: var(--very-dark);
     color: var(--light-gray);
     padding: 1rem;
 }
 
 .sn-title {
-    font-size: large;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
     font-weight: 700;
     margin-top: 1rem; 
     height: 2.5rem;
 }
 
 .sn-title-icon {
-
+    padding-right: 8px;
 }
 
 .sn-navegation-block {
@@ -52,20 +58,28 @@ body{
 }
 
 .sn-nav-item {
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 
 .sn-nav-link {
+    display: flex;
     font-size: medium;
     color:  var(----light-gray);
     text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+
 }
 
 .sn-icon {
-    padding: 10px;
+    padding: 5px;
+    padding-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-/*********** main-container-right-side ***********/
+/*********** main-container / right-side ***********/
 .right-side-container {
     display: grid;
     grid-template-columns: ;
@@ -91,25 +105,31 @@ margin-bottom: 20px;
 }
 
 .h-search-container {
-
+    display: flex;
 }
 
 .h-search-icon {
-
+    display: flex;
+    margin: auto;
 }
 
 .h-search-box {
+    display: flex;
     border-radius: 10px;
-    padding: 3px;
+    padding: 5px;
     background-color: var(--light-green);
+    margin: 8px;
+    font-size: medium;
 }
 
 .h-top-icons-container {
-
+    display: flex;
+    border: 2px solid blue;
 }
 
 .h-alert-icon {
-
+    margin: auto;
+    padding: 10px;
 }
 
 .h-avatar-icon-top {
