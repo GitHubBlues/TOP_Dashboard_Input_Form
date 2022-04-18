@@ -16,7 +16,7 @@ The specifications for the dashboard project are [here](https://www.theodinproje
  - grid layout
 
 The animations were carried our in the context of the advanced HTML and CSS module available [here](https://www.theodinproject.com/paths/full-stack-javascript/courses/advanced-html-and-css). The animations implement:
- - the css-transform properties (translation, rotation, scaling),
+ - css-transform properties (translation, rotation, scaling),
  - css-transitions,
  - css animations using @keyframes rules
 
