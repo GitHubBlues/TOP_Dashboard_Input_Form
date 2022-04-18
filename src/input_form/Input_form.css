@@ -78,9 +78,16 @@ img {
   max-width: 37rem;
 }
 
-.form {
-  margin: 5% 0rem 1rem 0rem;
+form {
+  margin-left: 5% 0rem 1rem 0rem;
+  display: flex;
+  flex-direction: row;
   background-color: white;
+}
+
+.bottom-edge-form{
+  height:0.5px;
+  box-shadow: 2px 2px 4px grey;
 }
 
 .column {
@@ -91,9 +98,10 @@ img {
 }
 
 .form-title {
-  padding: 1rem 0rem 0rem 1.5rem;
+  padding: 3rem 0rem 1rem 1.5rem;
   font-size: large;
   font-weight: bold;
+  background-color: white;
 }
 
 input {
@@ -114,14 +122,27 @@ label {
   font-size: small;
 }
 
+.button-container {
+  width: 100%;
+}
+
 .btn {
   margin: 5% 0rem 1rem 1.5rem;
+  position: relative;
+  margin-left: 1rem;
   font-size: medium;
   background-color: #596d48;
   color: white;
   font-weight: bold;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
+  box-shadow: 3px 3px 3px black;
+  transition: all 0.2s ease-in-out 100ms;
+}
+
+.btn:hover {
+   transform: scale(1.05);
+   opacity: 0.8;
 }
 
 .text-3 {
