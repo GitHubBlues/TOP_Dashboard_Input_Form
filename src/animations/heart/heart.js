@@ -18,7 +18,7 @@ setTimeout(function () {
 }, 300);
 
 setTimeout(function () {
-  lettersOneByOne(word2, "Valentines", 140);
+  lettersOneByOne(word2, "Valentine's", 140);
 }, 1000);
 
 setTimeout(function () {
