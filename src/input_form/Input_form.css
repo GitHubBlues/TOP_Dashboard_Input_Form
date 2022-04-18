@@ -1,152 +1,152 @@
 @font-face {
-  font-family: norse;
-  font-size: xx-large;
-  src: url("../../fonts/Norse-Bold.otf");
+    font-family: norse;
+    font-size: xx-large;
+    src: url("../../fonts/Norse-Bold.otf");
 }
 
 :root {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 body {
-  margin: 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: black;
-  box-sizing: border-box;
-  width: 100vw;
-  min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 .image-container {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../../images/fern.jpg");
-  background-size: cover;
-  width: 350px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../images/fern.jpg");
+    background-size: cover;
+    width: 350px;
+    position: relative;
 }
 
 .odin-banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10%;
-  background-color: rgba(0, 0, 0, 0.4);
-  margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20vh;
 }
 
 img {
-  width: 30%;
-  color: white;
+    width: 30%;
+    color: white;
 }
 
 .banner-text {
-  margin: auto 0rem;
-  color: white;
-  font-family: norse, sans-serif;
-  font-size: xx-large;
+    margin: auto 0rem;
+    color: white;
+    font-family: norse, sans-serif;
+    font-size: xx-large;
 }
 
 .photo-credit {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  bottom: 1rem;
-  padding: auto;
-  font-size: small;
-  color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    bottom: 1rem;
+    padding: auto;
+    font-size: small;
+    color: white;
 }
 
 .form-container {
-  width: clamp(200px, 50vw, 1000px);
-  background-color: rgb(232, 239, 241);
+    width: clamp(200px, 50vw, 1000px);
+    background-color: rgb(232, 239, 241);
 }
 
 .text-1 {
-  margin: 20% 0rem 1rem 1.5rem;
-  font-size: large;
-  max-width: 37rem;
+    margin: 20% 0rem 1rem 1.5rem;
+    font-size: large;
+    max-width: 37rem;
 }
 
 .text-2 {
-  margin: 2% 0rem 1rem 1.5rem;
-  font-size: large;
-  max-width: 37rem;
+    margin: 2% 0rem 1rem 1.5rem;
+    font-size: large;
+    max-width: 37rem;
 }
 
 form {
-  margin-left: 5% 0rem 1rem 0rem;
-  display: flex;
-  flex-direction: row;
-  background-color: white;
+    margin-left: 5% 0rem 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
 }
 
-.bottom-edge-form{
-  height:0.5px;
-  box-shadow: 2px 2px 4px grey;
+.bottom-edge-form {
+    height: 0.5px;
+    box-shadow: 2px 2px 4px grey;
 }
 
 .column {
-  width: 50%;
-  float: left;
-  background-color: white;
-  padding: 1rem 0rem 2rem 0rem;
+    width: 50%;
+    float: left;
+    background-color: white;
+    padding: 1rem 0rem 2rem 0rem;
 }
 
 .form-title {
-  padding: 3rem 0rem 1rem 1.5rem;
-  font-size: large;
-  font-weight: bold;
-  background-color: white;
+    padding: 3rem 0rem 1rem 1.5rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
 }
 
 input {
-  display: block;
-  width: 70%;
-  margin: 0rem 0rem 1rem 1.5rem;
-  border-radius: 4px;
-  border: 2px solid #e5e7eb;
+    display: block;
+    width: 70%;
+    margin: 0rem 0rem 1rem 1.5rem;
+    border-radius: 4px;
+    border: 2px solid #e5e7eb;
 }
 
 input:focus {
-  border: 1px solid #b7c8eb;
-  box-shadow: 5px 5px 5px #b7c8eb;
+    border: 1px solid #b7c8eb;
+    box-shadow: 5px 5px 5px #b7c8eb;
 }
 
 label {
-  margin: 0rem 0rem 1rem 1.5rem;
-  font-size: small;
+    margin: 0rem 0rem 1rem 1.5rem;
+    font-size: small;
 }
 
 .button-container {
-  width: 100%;
+    width: 100%;
 }
 
 .btn {
-  margin: 5% 0rem 1rem 1.5rem;
-  position: relative;
-  margin-left: 1rem;
-  font-size: medium;
-  background-color: #596d48;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 3px 3px 3px black;
-  transition: all 0.2s ease-in-out 100ms;
+    margin: 5% 0rem 1rem 1.5rem;
+    position: relative;
+    margin-left: 1rem;
+    font-size: medium;
+    background-color: #596d48;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px black;
+    transition: all 0.2s ease-in-out 100ms;
 }
 
 .btn:hover {
-   transform: scale(1.05);
-   opacity: 0.8;
+    transform: scale(1.05);
+    opacity: 0.8;
 }
 
 .text-3 {
-  margin: 2% 0rem 1rem 1.5rem;
-  font-size: medium;
-  max-width: 37rem;
+    margin: 2% 0rem 1rem 1.5rem;
+    font-size: medium;
+    max-width: 37rem;
 }
